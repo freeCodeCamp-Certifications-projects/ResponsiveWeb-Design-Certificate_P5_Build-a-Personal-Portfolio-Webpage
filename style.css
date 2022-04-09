@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100;200;300;400;500;600;700;800&display=swap');
+
+html {
+    font-family: "Anek Bangla", "sans-serif";
+    font-size: 1.3rem;
+
+}
+
+h1 {
+    font-size: 7rem;
+    line-height: 8rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+body {
+
+    background-color: rgba(245, 176, 112, 0.8);
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   gap:21px;
+   padding-right: 1rem;
+}
+.nav-links{
+    font-size: 1.8rem;
+    color: rgba(245, 176, 112, 1);;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+#welcome-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.homePara{
+    margin-top: -140px;
+}
+
+.project-link {
+    font-size: 3rem;
+    /* text-decoration: none; */
+    color: rgb(17, 98, 173);}
+.project-link:hover{
+    /* color:white; */
+    background-color: white;
+    font-weight: bold;
+}
+@media screen and (max-width: 450px) {
+    .project-link{
+        font-size: 2rem;
+    }
+}
