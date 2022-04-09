@@ -38,11 +38,10 @@ body {
 }
 
 #welcome-section {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+
 }
 
 .homePara{
@@ -51,7 +50,6 @@ body {
 
 .project-link {
     font-size: 3rem;
-    /* text-decoration: none; */
     color: rgb(17, 98, 173);}
 .project-link:hover{
     /* color:white; */
